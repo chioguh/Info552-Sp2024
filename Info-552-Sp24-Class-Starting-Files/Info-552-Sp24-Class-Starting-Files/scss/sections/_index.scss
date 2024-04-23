@@ -9,6 +9,10 @@
     >div{
         padding: 0 16px;
 
+        @include md{
+            padding: 0 56px;
+        }
+
         p{
             font-size: rem-calc(18);
             color: var(--blue);
@@ -18,15 +22,16 @@
             margin: 32px 0;
         }
     }
-    img{
-        width: 100%;
-    }
-
+  
     #index-hero-image{
-        height: 500px;
+        height: 90vh;
         background-image: url('../img/home/hero.jpg');
         background-size: cover;
         background-position: center;
+
+        @include md{
+            height: 60vh;
+        }
     }
 }
 
@@ -49,6 +54,12 @@
     p{
         margin-bottom: 32px;
         text-align: left;
+
+        @include md{
+            padding-right: 30vw;
+            font-size: rem-calc(20);
+            line-height: 25px;
+        }
     }
 
     #planning-hero{
@@ -56,6 +67,11 @@
         height: 360px;
         background-size: cover;
         border-radius: 10px;
+
+        @include md{
+            width: 80vw;
+            height: 50vw;
+        }
     }
 
     #planning-callout{
@@ -65,8 +81,11 @@
         border-radius: 10px;
         padding: 32px 0px;
         width: 244px;
-
         margin-top: -20px;
+
+        @include md{
+
+        }
 
         display: inline-block;
 
@@ -93,6 +112,10 @@
 
 #index-weather{
     padding: 32px 16px;
+
+    @include md{
+        padding: 32px 15vw;
+    }
 
     h1{
         color: var(--blue);
