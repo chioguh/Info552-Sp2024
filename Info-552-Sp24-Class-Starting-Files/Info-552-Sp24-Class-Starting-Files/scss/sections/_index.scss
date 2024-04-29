@@ -1,0 +1,50 @@
+/* =============
+    Index
+============= */
+
+body{
+    background-color: var(--cream);
+}
+
+#home-hero{
+    h1{
+        color: var(--mossGreen);
+        text-align: center;
+        font-size: xx-large;
+    }
+    h2{
+        color: var(--yellow);
+        text-align: center;
+        margin: 10 0;
+    }
+    p{
+        color: var(--black);
+    }
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 170px;
+        width: 25%;
+    }
+}
+
+#opening{
+    text-align: center;
+}
+
+#purpose{
+    height: 50px;
+    width: 400px;
+    display: inline-block;
+    margin: 10 10;
+    float: left;
+}
+
+#philosophy{
+    height: 50px;
+    width: 400px;
+    display: inline-block;
+    margin: 10 10;
+    float: right;
+}
