@@ -356,6 +356,17 @@ h3 {
 /* =============
     Buttons
 ============= */
+button {
+  background-color: var(--green);
+  border: none;
+  padding: 15px 32px;
+  border-radius: 30px;
+}
+button a {
+  color: var(--yellow);
+  text-decoration: none;
+}
+
 /* =============
     Forms
 ============= */
@@ -440,6 +451,9 @@ body {
   background-color: var(--cream);
 }
 
+#home-hero {
+  padding: 0 15px;
+}
 #home-hero h1 {
   color: var(--mossGreen);
   text-align: center;
@@ -484,6 +498,9 @@ body {
 /* =============
     About
 ============= */
+#about-hero {
+  padding: 0 10%;
+}
 #about-hero h1 {
   color: var(--mossGreen);
   font-size: xx-large;
@@ -493,6 +510,27 @@ body {
   color: var(--black);
   text-align: left;
   width: 50%;
+  font-size: large;
+}
+
+#about-content h1 {
+  display: block;
+  padding: 10px 0 0;
+}
+#about-content p {
+  height: 50px;
+  width: 60%;
+  margin: 5 10;
+  display: inline-block;
+}
+#about-content .about-img {
+  border-radius: 50%;
+  border: 10px solid var(--yellow);
+  float: right;
+}
+
+#about-button {
+  margin: 2% auto 15%;
 }
 
 /* =============
