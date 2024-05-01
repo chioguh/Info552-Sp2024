@@ -1,0 +1,55 @@
+/* =============
+    Resume
+============= */
+
+#resume-hero{
+    h1{
+        color: var(--mossGreen);
+        text-align: left;
+        font-size: xx-large;
+    }
+    h3{
+        color: var(--black);
+    }
+
+    p{
+        width: 60%;
+    }
+
+    .resume-contact{
+        display: inline-block;
+    }
+
+    .resume-summary{
+        margin: auto;
+        display: inline-block;
+    }
+
+    padding: 0 15px;
+}
+
+#resume-content{
+    h3{
+        color: var(--black);
+        font-size: medium;
+    }
+    h4{
+        font-weight: 400;
+        text-indent: 30px;
+    }
+
+    p{
+        text-indent: 40px;
+    }    
+
+    background-image: url('../img/trailing vines.jpg');
+    background-position: center;
+
+    padding: 0 15px;
+
+    button{
+        margin-top: 20px;
+        margin-left: 20%;
+    }
+
+}
