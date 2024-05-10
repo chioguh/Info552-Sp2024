@@ -6,6 +6,14 @@ a{
     text-decoration: none;
 }
 
+.hide-menu{
+    display: none;
+
+    @include md{
+        display: block;
+    }
+}
+
 #main-nav{
     background-color: var(--blueDark);
     color: var(--white);
