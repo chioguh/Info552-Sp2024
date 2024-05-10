@@ -10,5 +10,8 @@
     }
     
     #footer-images{
-        padding-top: 7%;
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 7% 40vw 0;
     }

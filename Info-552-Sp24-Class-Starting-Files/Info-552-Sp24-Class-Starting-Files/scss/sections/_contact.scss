@@ -1,3 +1,24 @@
 /* =============
     Contact
 ============= */
+
+#contact-hero{
+    padding: 0 15px;
+
+    h1{
+        color: var(--mossGreen);
+    }
+
+    h2{
+        font-size: medium;
+        font-weight: 600;
+    }
+
+    .contact-image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5%;
+        width: 40%;
+    }
+}

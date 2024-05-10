@@ -441,7 +441,12 @@ textarea {
 }
 
 #footer-images {
-  padding-top: 7%;
+  list-style-type: none;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+  grid-template-columns: repeat(3, 1fr);
+  padding: 7% 40vw 0;
 }
 
 /* =============
@@ -559,6 +564,24 @@ body {
 /* =============
     Contact
 ============= */
+#contact-hero {
+  padding: 0 15px;
+}
+#contact-hero h1 {
+  color: var(--mossGreen);
+}
+#contact-hero h2 {
+  font-size: medium;
+  font-weight: 600;
+}
+#contact-hero .contact-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
+  width: 40%;
+}
+
 /* =============
     Resume
 ============= */
@@ -719,4 +742,18 @@ body {
 #associations-list div P {
   text-align: right;
   padding-left: 300px;
+}
+
+/* =============
+    Index
+============= */
+#sitemap {
+  padding: 0 15px;
+}
+#sitemap h1 {
+  color: var(--mossGreen);
+}
+#sitemap a {
+  text-decoration: none;
+  color: var(--black);
 }
