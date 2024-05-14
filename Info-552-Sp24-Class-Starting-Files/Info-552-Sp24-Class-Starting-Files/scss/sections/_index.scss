@@ -24,8 +24,15 @@ body{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 170px;
-        width: 25%;
+        width: 40%;
+
+        @include md{
+            width: 30%;
+        }
+
+        @include lg{
+            width: 25%;
+        }
     }
     padding: 0 15px;
 }
@@ -35,17 +42,32 @@ body{
 }
 
 #purpose{
-    height: 50px;
-    width: 400px;
-    display: inline-block;
-    margin: 10 10;
-    float: left;
+    height: 50%;
+
+    @include md{
+        display: inline-block;
+        width: 200 vw;
+    }
+
+    @include lg{
+        display: inline-block;
+        margin: 10 10;
+        width: 400px;
+    }
 }
 
 #philosophy{
-    height: 50px;
-    width: 400px;
-    display: inline-block;
-    margin: 10 10;
-    float: right;
+    height: 50%;
+
+    @include md{
+        display: inline-block;
+        width: 200 vw;
+    }
+
+    @include lg{
+        display: inline-block;
+        margin: 10 10;
+        width: 400px;
+        float: right;
+    }
 }

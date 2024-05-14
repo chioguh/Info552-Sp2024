@@ -476,8 +476,17 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 170px;
-  width: 25%;
+  width: 40%;
+}
+@media (min-width: 768px) {
+  #home-hero img {
+    width: 30%;
+  }
+}
+@media (min-width: 1024px) {
+  #home-hero img {
+    width: 25%;
+  }
 }
 
 #opening {
@@ -485,19 +494,38 @@ body {
 }
 
 #purpose {
-  height: 50px;
-  width: 400px;
-  display: inline-block;
-  margin: 10 10;
-  float: left;
+  height: 50%;
+}
+@media (min-width: 768px) {
+  #purpose {
+    display: inline-block;
+    width: 200 vw;
+  }
+}
+@media (min-width: 1024px) {
+  #purpose {
+    display: inline-block;
+    margin: 10 10;
+    width: 400px;
+  }
 }
 
 #philosophy {
-  height: 50px;
-  width: 400px;
-  display: inline-block;
-  margin: 10 10;
-  float: right;
+  height: 50%;
+}
+@media (min-width: 768px) {
+  #philosophy {
+    display: inline-block;
+    width: 200 vw;
+  }
+}
+@media (min-width: 1024px) {
+  #philosophy {
+    display: inline-block;
+    margin: 10 10;
+    width: 400px;
+    float: right;
+  }
 }
 
 /* =============
