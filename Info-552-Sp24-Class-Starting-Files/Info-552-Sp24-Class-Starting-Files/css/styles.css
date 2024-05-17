@@ -618,11 +618,34 @@ body {
   text-align: center;
 }
 #essay-hero .essay-content {
-  width: 70%;
+  width: auto;
+}
+@media (min-width: 768px) {
+  #essay-hero .essay-content {
+    width: 60%;
+  }
+}
+@media (min-width: 1024px) {
+  #essay-hero .essay-content {
+    width: 70%;
+  }
 }
 #essay-hero .essay-audio {
-  float: right;
   margin: auto;
+}
+@media (min-width: 768px) {
+  #essay-hero .essay-audio {
+    float: right;
+    margin: 15px;
+    width: auto;
+  }
+}
+@media (min-width: 1024px) {
+  #essay-hero .essay-audio {
+    float: right;
+    margin: auto;
+    width: auto;
+  }
 }
 
 /* =============

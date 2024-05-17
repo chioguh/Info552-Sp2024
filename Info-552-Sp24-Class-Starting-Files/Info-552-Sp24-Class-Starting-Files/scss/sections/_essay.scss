@@ -4,6 +4,7 @@
 
 #essay-hero{
     padding: 0 15px;
+
     h1{
         color: var(--mossGreen);
         text-align: center;
@@ -15,11 +16,30 @@
     }
 
     .essay-content{
-        width: 70%;
+        width: auto;
+
+        @include md{
+            width: 60%;
+        }
+
+        @include lg{
+            width: 70%;
+        }
     }
 
     .essay-audio{
-        float: right;
         margin: auto;
+
+        @include md{
+            float: right;
+            margin: 15px;
+            width: auto;
+        }
+
+        @include lg{
+            float: right;
+            margin: auto;
+            width: auto;
+        }
     }
 }
