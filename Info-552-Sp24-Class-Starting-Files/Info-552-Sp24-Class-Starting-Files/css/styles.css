@@ -735,8 +735,20 @@ body {
   text-align: center;
 }
 #project-hero p {
-  text-align: center;
   font-size: large;
+  padding: 0 20px;
+}
+@media (min-width: 768px) {
+  #project-hero p {
+    padding: none;
+    text-align: center;
+  }
+}
+@media (min-width: 1024px) {
+  #project-hero p {
+    padding: none;
+    text-align: center;
+  }
 }
 
 #project-list {
@@ -744,8 +756,8 @@ body {
   display: grid;
   -ms-grid-columns: 1fr 13px 1fr;
   grid-template-columns: repeat(2, 1fr);
-  -ms-grid-rows: 20% 13px 20%;
-  grid-template-rows: 20% 20%;
+  -ms-grid-rows: 50% 13px 50%;
+  grid-template-rows: 50% 50%;
   gap: 13px;
   padding: 0 20px;
 }
