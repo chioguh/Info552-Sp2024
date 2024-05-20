@@ -29,6 +29,9 @@
 }
 
 #resume-content{
+
+    padding: 0 15px;
+
     h3{
         color: var(--black);
         font-size: medium;
@@ -42,14 +45,22 @@
         text-indent: 40px;
     }    
 
-    background-image: url('../img/trailing vines.jpg');
-    background-position: center;
-
-    padding: 0 15px;
-
     button{
         margin-top: 20px;
         margin-left: 20%;
+    }
+
+
+    @include md{
+        background-image: url('../img/trailing vines.jpg');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+     }
+    
+    @include lg{
+        background-image: url('../img/trailing vines.jpg');
+        background-position: center;
     }
 
 }

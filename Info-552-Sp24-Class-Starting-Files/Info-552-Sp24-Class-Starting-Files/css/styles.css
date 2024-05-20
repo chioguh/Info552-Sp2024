@@ -695,8 +695,6 @@ body {
 }
 
 #resume-content {
-  background-image: url("../img/trailing vines.jpg");
-  background-position: center;
   padding: 0 15px;
 }
 #resume-content h3 {
@@ -713,6 +711,20 @@ body {
 #resume-content button {
   margin-top: 20px;
   margin-left: 20%;
+}
+@media (min-width: 768px) {
+  #resume-content {
+    background-image: url("../img/trailing vines.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 1024px) {
+  #resume-content {
+    background-image: url("../img/trailing vines.jpg");
+    background-position: center;
+  }
 }
 
 /* =============
